@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="173" id="LfV-e7-kLE" customClass="BNRCoursesViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="510" height="173"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LfV-e7-kLE" id="8v8-IC-RN1">
+                <rect key="frame" x="0.0" y="0.0" width="510" height="172"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="500" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hg1-Jb-gm4">
+                        <rect key="frame" x="460" y="76" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tIF-43-Oem">
+                        <rect key="frame" x="158" y="76" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SVM-ZC-Gdx">
+                        <rect key="frame" x="58" y="76" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="400" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XfP-5O-x2Z">
+                        <rect key="frame" x="8" y="76" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eXH-0g-i2R">
+                        <rect key="frame" x="108" y="76" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="eXH-0g-i2R" firstAttribute="top" secondItem="XfP-5O-x2Z" secondAttribute="top" id="4uO-uw-RDs"/>
+                    <constraint firstItem="eXH-0g-i2R" firstAttribute="top" secondItem="XfP-5O-x2Z" secondAttribute="top" id="D6H-E2-yTh"/>
+                    <constraint firstItem="XfP-5O-x2Z" firstAttribute="leading" secondItem="8v8-IC-RN1" secondAttribute="leadingMargin" id="E5a-EO-7lE"/>
+                    <constraint firstItem="Hg1-Jb-gm4" firstAttribute="top" secondItem="XfP-5O-x2Z" secondAttribute="top" id="Hfr-gB-Aq3"/>
+                    <constraint firstItem="SVM-ZC-Gdx" firstAttribute="top" secondItem="XfP-5O-x2Z" secondAttribute="top" id="JaB-fb-D5e"/>
+                    <constraint firstItem="tIF-43-Oem" firstAttribute="top" secondItem="XfP-5O-x2Z" secondAttribute="top" id="Pcj-TR-MKl"/>
+                    <constraint firstItem="eXH-0g-i2R" firstAttribute="baseline" secondItem="XfP-5O-x2Z" secondAttribute="baseline" id="QmK-2G-6QM"/>
+                    <constraint firstItem="tIF-43-Oem" firstAttribute="baseline" secondItem="XfP-5O-x2Z" secondAttribute="baseline" id="UPF-81-pdq"/>
+                    <constraint firstItem="SVM-ZC-Gdx" firstAttribute="baseline" secondItem="XfP-5O-x2Z" secondAttribute="baseline" id="aK3-3N-y1f"/>
+                    <constraint firstItem="SVM-ZC-Gdx" firstAttribute="baseline" secondItem="XfP-5O-x2Z" secondAttribute="baseline" id="czI-qx-vZ5"/>
+                    <constraint firstItem="Hg1-Jb-gm4" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="tIF-43-Oem" secondAttribute="trailing" constant="8" id="dPF-Mt-G7v"/>
+                    <constraint firstItem="SVM-ZC-Gdx" firstAttribute="leading" secondItem="XfP-5O-x2Z" secondAttribute="trailing" constant="8" id="euV-p2-adB"/>
+                    <constraint firstItem="eXH-0g-i2R" firstAttribute="baseline" secondItem="XfP-5O-x2Z" secondAttribute="baseline" id="gZR-ND-wSt"/>
+                    <constraint firstItem="XfP-5O-x2Z" firstAttribute="centerY" secondItem="8v8-IC-RN1" secondAttribute="centerY" id="mC2-Kx-OSS"/>
+                    <constraint firstItem="eXH-0g-i2R" firstAttribute="leading" secondItem="SVM-ZC-Gdx" secondAttribute="trailing" constant="8" id="mFw-Yv-8fl"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Hg1-Jb-gm4" secondAttribute="trailing" id="rEd-rW-N2T"/>
+                    <constraint firstItem="tIF-43-Oem" firstAttribute="top" secondItem="XfP-5O-x2Z" secondAttribute="top" id="sEh-Xb-RlL"/>
+                    <constraint firstItem="Hg1-Jb-gm4" firstAttribute="baseline" secondItem="XfP-5O-x2Z" secondAttribute="baseline" id="t3n-OJ-RSD"/>
+                    <constraint firstItem="tIF-43-Oem" firstAttribute="leading" secondItem="eXH-0g-i2R" secondAttribute="trailing" constant="8" id="vtx-bu-Ngu"/>
+                    <constraint firstItem="Hg1-Jb-gm4" firstAttribute="baseline" secondItem="XfP-5O-x2Z" secondAttribute="baseline" id="w9Q-TV-tca"/>
+                    <constraint firstItem="Hg1-Jb-gm4" firstAttribute="top" secondItem="XfP-5O-x2Z" secondAttribute="top" id="wHL-Cs-FVG"/>
+                    <constraint firstItem="tIF-43-Oem" firstAttribute="baseline" secondItem="XfP-5O-x2Z" secondAttribute="baseline" id="xLI-3M-h5j"/>
+                    <constraint firstItem="SVM-ZC-Gdx" firstAttribute="top" secondItem="XfP-5O-x2Z" secondAttribute="top" id="yX2-H4-Osh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="courseEndDate" destination="tIF-43-Oem" id="N5l-iX-Sed"/>
+                <outlet property="courseInstructors" destination="SVM-ZC-Gdx" id="HI2-zs-zM2"/>
+                <outlet property="courseLocation" destination="Hg1-Jb-gm4" id="Qb3-gc-7xh"/>
+                <outlet property="courseName" destination="XfP-5O-x2Z" id="CaY-2D-06M"/>
+                <outlet property="courseStartDate" destination="eXH-0g-i2R" id="oUH-Nq-0Tn"/>
+            </connections>
+            <point key="canvasLocation" x="392" y="329.5"/>
+        </tableViewCell>
+    </objects>
+</document>
